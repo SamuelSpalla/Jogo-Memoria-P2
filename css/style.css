@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    transition: 0.5s all ease;
+}
+
+body{
+    background-color: #53aa7b;
+    font-weight: 400;
+}
+
+.container{
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 5px;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+header .menu{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 4rem;
+}
+
+
+header a:hover{
+    transform: scale(1.2);
+    
+}
+
+header .logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+
+ header .logo img{
+    width: 100px;
+ }
+
+
+
+
+section#home{
+    height: 80vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/20200428mataatlantica4.jpg) ;
+    background-size: cover;
+    
+}
+section#home h1{
+    text-align: center;
+    padding-top: 2rem;
+
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+section#home .home-content{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1%;
+    margin: 2% 0;
+    background:rgba(95, 95, 95, 0.2);
+}
+
+section#home .home-content .text{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: justify;
+
+    padding: 4% 0;
+    padding-left: 3%;
+}
+
+.btn-home{
+    text-align: center;
+}
+
+.btn-home .btn{
+    background-color: #53aa7b;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.btn-home .btn:hover{
+    transform: scale(1.2);
+}
+
+.sobre h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.sobre p{
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
